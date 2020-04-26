@@ -5,7 +5,7 @@ import { CommonModule }  from '@angular/common';
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
-import { FormsModule,ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
@@ -16,7 +16,6 @@ import { AppComponent } from './app.component';
     CommonModule, 
     IonicModule.forRoot(), 
     AppRoutingModule,
-    FormsModule,
     ReactiveFormsModule],
 
   providers: [
