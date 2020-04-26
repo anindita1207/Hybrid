@@ -1,0 +1,32 @@
+ion-content ion-toolbar {
+  --background: translucent;
+ // --background:grey;
+
+}
+
+.div-color{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+input[type=text],input[type=email],input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid rgb(201, 89, 186);
+  background-color: #f2f2f2;
+}
+input[type=text]:focus,input[type=email]:focus,input[type=password]:focus{
+outline: none;
+//border: 1px solid;
+padding: 10px;
+box-shadow: 5px 5px 10px #888888;
+//box-shadow:rgb(194, 194, 233);
+border-color:transparent;
+}
+
+
+

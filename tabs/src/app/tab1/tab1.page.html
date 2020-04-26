@@ -1,0 +1,85 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      My App
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Welcome</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="container">
+      <form class="well form-horizontal">
+        <fieldset>
+          <!-- Form Name -->
+  <h1><b>Registration Form</b></h1><br>
+
+          <!-- Text input-->
+
+<div class="form-group">
+    <label class="col-md-4 control-label">First Name</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+    <input  name="first_name" placeholder="First Name" class="form-control form-control-sm formStyle"  type="text">
+      </div>
+    </div>
+  </div>
+  
+<!-- Text input-->
+
+<div class="form-group">
+    <label class="col-md-4 control-label" >Last Name</label> 
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+    <input name="last_name" placeholder="Last Name" class="form-control formStyle"  type="text">
+      </div>
+    </div>
+  </div>
+<!-- Text input-->
+
+<div class="form-group">
+    <label class="col-md-4 control-label">Username</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+    <input  name="user_name" placeholder="Username" class="form-control formStyle"  type="text">
+      </div>
+    </div>
+  </div>
+  
+  <!-- Text input-->
+  
+  <div class="form-group">
+    <label class="col-md-4 control-label" >Password</label> 
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+    <input name="user_password" placeholder="Password" class="form-control formStyle"  type="password">
+      </div>
+    </div>
+  </div>
+  <!-- Text input-->
+       
+<div class="form-group">
+    <label class="col-md-4 control-label">Contact No.</label>  
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+    <input name="contact_no" placeholder="(639)" class="form-control formStyle" type="text">
+      </div>
+    </div>
+  </div>  
+
+        </fieldset>
+      </form>
+  </div>
+  
+  <app-explore-container name="Welcome"></app-explore-container>
+</ion-content>
